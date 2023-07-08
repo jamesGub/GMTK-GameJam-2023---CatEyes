@@ -21,7 +21,7 @@ public class MapControls : MonoBehaviour
     private void Update()
     {
         float tiltInput = Input.GetAxis("Horizontal");
-        float tiltInput = Input.GetAxis("Vertical");
+        float moveInput = Input.GetAxis("Vertical");
 
         // Determining input for the tilt and subsequently the movement
         TiltMap(tiltInput);
