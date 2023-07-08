@@ -14,9 +14,8 @@ public class MapControls : MonoBehaviour
 {
 
     // Since we wanted tilt and movement we can determine 2 separate variables.
-    public float tiltSpeed = 1f;
-    public float moveSpeed = 1f;
-
+    public float tiltSpeed = 100f;
+    public float moveSpeed = 100f;
     // Horizontal tilt and vertical movement
     private void Update()
     {
@@ -35,10 +34,10 @@ public class MapControls : MonoBehaviour
         float tiltInput = 0f;
 
         if (Input.GetKey(KeyCode.A))
-            tiltInput += 1f;
+            tiltInput += 3f;
         
         if (Input.GetKey(KeyCode.D))
-            tiltInput -= 1f;
+            tiltInput -= 3f;
 
         return tiltInput;
     }
@@ -50,9 +49,9 @@ public class MapControls : MonoBehaviour
 
         
         if (Input.GetKey(KeyCode.W))
-            moveInput += 1f;
+            moveInput += 3f;
         if (Input.GetKey(KeyCode.S))
-            moveInput -= 1f;
+            moveInput -= 3f;
 
         return moveInput;
     }
@@ -61,7 +60,7 @@ public class MapControls : MonoBehaviour
     private void TiltMap(float tiltInput) {
         
         
-        float targetAngle = tiltInput * tiltSpeed;
+        float targetAngle = tiltInput * tiltSpeed * 2;
 
 
         // Applied
