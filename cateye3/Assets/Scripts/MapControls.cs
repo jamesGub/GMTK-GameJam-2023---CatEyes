@@ -49,9 +49,9 @@ public class MapControls : MonoBehaviour
 
         
         if (Input.GetKey(KeyCode.W))
-            moveInput += 3f;
+            moveInput += 1f;
         if (Input.GetKey(KeyCode.S))
-            moveInput -= 3f;
+            moveInput -= 1f;
 
         return moveInput;
     }
