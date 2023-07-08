@@ -61,10 +61,9 @@ public class MapControls : MonoBehaviour
         
         
         float targetAngle = tiltInput * tiltSpeed * 2;
+        Quaternion targetRotation = Quaternion.Euler(0f, 0f, targetAngle);
 
-
-        // Applied
-        transform.rotation = Quaternion.Euler(0f, 0f, targetAngle);
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime);
 
     }
 
