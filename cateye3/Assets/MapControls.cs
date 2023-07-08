@@ -26,7 +26,7 @@ public class MapControls : MonoBehaviour
         // Determining input for the tilt and subsequently the movement
         TiltMap(tiltInput);
 
-        MoveMap(MoveInput);
+        MoveMap(moveInput);
     }
 
         // Next two functions are for WASD input (did not want to use input manager)
