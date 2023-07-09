@@ -16,6 +16,8 @@ public class Bumper : MonoBehaviour
             float bounceForce = ballMass * bounceForceMultiplier;
             Vector2 bounceDirection = (other.transform.position - transform.position).normalized;
             ballRigidbody.AddForce(bounceDirection * bounceForce, ForceMode2D.Impulse);
+
+            
         }
     }
 }
