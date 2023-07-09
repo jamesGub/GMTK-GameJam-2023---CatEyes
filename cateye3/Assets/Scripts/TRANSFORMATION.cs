@@ -1,9 +1,19 @@
+/*
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Collectibles : MonoBehaviour
+/* THIS AND THE COLLECTIBLES SCRIPT ARE THE SAME FILE, THIS IS JUST A REFERENCE 
+- Use original character sprite renderer
+- Put in the sprite you want to change it to
+- Input the threshold
+
+
+****ATTACH TO THE CHARACTER AND THE COLLECTIBLES***
+
+public class TRANSFORMATION : MonoBehaviour
  {
     private int fish = 0;
 
@@ -26,3 +36,4 @@ public class Collectibles : MonoBehaviour
         }
     }
 }
+*/

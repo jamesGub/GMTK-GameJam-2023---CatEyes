@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Collectibles : MonoBehaviour
+/* CHANGE THE COLLECTIBLES.CS FILE TO THIS
+- Use original character sprite renderer
+- Put in the sprite you want to change it to
+- Input the threshold
+*/
+public class TRANSFORMATION : MonoBehaviour
  {
     private int fish = 0;
 
