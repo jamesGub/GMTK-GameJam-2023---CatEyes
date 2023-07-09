@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - CatBall
+  - Collect
   layers:
   - Default
   - TransparentFX
