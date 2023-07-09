@@ -42,3 +42,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Sun
+    uniqueID: 3327769737
+    locked: 0
+  - name: Clouds
+    uniqueID: 2158193223
+    locked: 0
+  - name: Clouds2
+    uniqueID: 1118328571
+    locked: 0
+  - name: Map
+    uniqueID: 3744239031
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 1395702455
+    locked: 0
