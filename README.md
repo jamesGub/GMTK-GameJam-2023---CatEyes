@@ -1,4 +1,4 @@
-# GMTK-GameJam-2023---CatEyes
+# GMTK-GameJam-2023---"The Ball of Cathulu" (codename cateye3)
 Collaborative repository for GMTK Game Jam 2023
 
 # Asset Drive
